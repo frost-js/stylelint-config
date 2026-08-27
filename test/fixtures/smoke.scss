@@ -1,5 +1,9 @@
+/// The example gap.
+///
+/// @type Length
 $gap: 1rem;
 
+// Example component.
 .example {
     margin: $gap;
 }

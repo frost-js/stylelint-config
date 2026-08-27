@@ -4,6 +4,9 @@ export default {
         'stylelint-config-recess-order',
         '@stylistic/stylelint-config',
     ],
+    reportDescriptionlessDisables: true,
+    reportInvalidScopeDisables: true,
+    reportNeedlessDisables: true,
     rules: {
         '@stylistic/at-rule-name-space-after': 'always',
         '@stylistic/at-rule-semicolon-space-before': 'never',
@@ -83,13 +86,24 @@ export default {
                 'scss/at-mixin-argumentless-call-parentheses': 'always',
                 'scss/at-mixin-pattern': null,
                 'scss/at-rule-conditional-no-parentheses': null,
-                'scss/comment-no-empty': null,
+                'scss/comment-no-empty': true,
                 'scss/declaration-property-value-no-unknown': true,
                 'scss/dimension-no-non-numeric-values': true,
                 'scss/dollar-variable-colon-space-after': 'at-least-one-space',
                 'scss/dollar-variable-empty-line-before': null,
-                'scss/double-slash-comment-empty-line-before': null,
-                'scss/double-slash-comment-whitespace-inside': null,
+                'scss/double-slash-comment-empty-line-before': [
+                    'always',
+                    {
+                        except: [
+                            'first-nested',
+                        ],
+                        ignore: [
+                            'between-comments',
+                            'stylelint-commands',
+                        ],
+                    },
+                ],
+                'scss/double-slash-comment-whitespace-inside': 'always',
                 'scss/function-quote-no-quoted-strings-inside': null,
                 'scss/media-feature-value-dollar-variable': null,
                 'scss/no-global-function-names': null,
