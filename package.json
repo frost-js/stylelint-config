@@ -1,6 +1,6 @@
 {
     "name": "@fr0st/stylelint-config",
-    "version": "4.0.1",
+    "version": "4.0.2",
     "description": "Stylelint shareable config for the Frost style.",
     "keywords": [
         "code",
@@ -10,14 +10,14 @@
         "linter",
         "stylelint"
     ],
-    "homepage": "https://github.com/elusivecodes/Stylelint-Config",
+    "homepage": "https://github.com/frost-js/stylelint-config",
     "bugs": {
-        "url": "https://github.com/elusivecodes/Stylelint-Config/issues",
+        "url": "https://github.com/frost-js/stylelint-config/issues",
         "email": "elusivecodes@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/elusivecodes/Stylelint-Config.git"
+        "url": "git+https://github.com/frost-js/stylelint-config.git"
     },
     "license": "MIT",
     "author": "Elusive <elusivecodes@gmail.com>",
@@ -43,7 +43,7 @@
         "stylelint-config-standard-scss": "^17.0.0"
     },
     "devDependencies": {
-        "@fr0st/eslint-config": "^5.0.2",
+        "@fr0st/eslint-config": "^5.0.3",
         "stylelint": "^17.14.1"
     },
     "peerDependencies": {

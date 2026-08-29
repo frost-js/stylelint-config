@@ -1,9 +1,9 @@
 # Frost Stylelint Config
 
-[![CI](https://github.com/elusivecodes/Stylelint-Config/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/elusivecodes/Stylelint-Config/actions/workflows/ci.yml)
+[![CI](https://github.com/frost-js/stylelint-config/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/frost-js/stylelint-config/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/%40fr0st/stylelint-config?style=flat-square)](https://www.npmjs.com/package/@fr0st/stylelint-config)
 [![npm downloads](https://img.shields.io/npm/dm/%40fr0st/stylelint-config?style=flat-square)](https://www.npmjs.com/package/@fr0st/stylelint-config)
-[![license](https://img.shields.io/github/license/elusivecodes/Stylelint-Config?style=flat-square)](./LICENSE)
+[![license](https://img.shields.io/github/license/frost-js/stylelint-config?style=flat-square)](./LICENSE)
 
 Stylelint shareable config for the *Frost* style.
 
